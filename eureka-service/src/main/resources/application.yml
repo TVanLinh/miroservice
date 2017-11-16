@@ -1,0 +1,17 @@
+eureka:
+  client:
+    registerWithEureka: false
+    fetchRegistry: false
+    service-url:
+      defaultZone: http://localhost:9000/eureka
+
+#zuul:
+#  #Service will be mapped under the /api URI
+#  prefix: /api
+#  routes:
+#    info-service:
+#      path: /info-service/**
+#      url: http://localhost:9001
+##    stock-service:
+##      path: /stock-service/**
+##      url: http://localhost:8301
